@@ -1,3 +1,10 @@
+bareos (14.2.5-3) trusty; urgency=medium
+
+  * Cherry-pick 4dc244c9c4b8cb51844d7dc9af33549936f25f7e
+    this should fix incremental/differential backups for python-fd-based jobs
+
+ -- Michael Renner <michael.renner@amd.co.at>  Thu, 18 Jun 2015 13:21:22 +0200
+
 bareos (14.2.5-2) trusty; urgency=medium
 
   * Cherry-pick ecd961f031affe4ac3826d6fbd2c408c88c9a2bc
